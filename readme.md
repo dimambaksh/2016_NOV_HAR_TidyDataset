@@ -10,8 +10,8 @@ The script creates a data sub-directory off the main working directory and downl
 Data file:"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 ##Output Data
-The final output file "finaldataset.tx" is created in the data sub-directory.
-finaldataset.txt
+The final output file "finaldataset.txt" is created in the data sub-directory.
+The finaldataset.txt is the tidy data set output from the run_analysis.R script.
 
 ##Variables
 featurestable
