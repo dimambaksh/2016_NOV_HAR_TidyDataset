@@ -83,7 +83,7 @@ colnames(traintest_labels) <- c("activity")
 traintest_features <- rbind(train_set_table_subset, test_set_table_subset)
 
 ## Join subject, activity and features data sets
-subjectlabels <- cbind(traintest_subject, tcraintest_labels)
+subjectlabels <- cbind(traintest_subject, traintest_labels)
 featuressubjectlabels <- cbind(traintest_features, subjectlabels) #Merged data set of train and test data
 
 ## Replace activity ID with activity labels
